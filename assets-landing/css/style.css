@@ -1,5 +1,77 @@
 *{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* NavbarLanding */
+#navbar__landing{
+    position: sticky;
+    top:0;
+    z-index: 1000;
+}
+
+.navbar{
+    background-image: linear-gradient(to right, #1ea6ec, #3c92fb);
+}
+.navbar-brand span{
+    font-weight: bolder;
+    color:#fff;
+}
+
+.navbar-nav li{
+    padding: 0 10px;
+}
+.navbar-nav li a{
+    color: #fff !important;
+    font-weight: bold;
+}
+
+/* HeroLanding */
+
+#hero__landing{
+    position: relative;
+    background-image: linear-gradient(to right, #1ea6ec, #3c92fb);
+    color:#fff;
+    padding-top: 5%;
+    height: 525px;
+}
+
+.hero__title{
+    font-weight: bolder;
+    margin-top: 25px;
+}
+.hero__image{
+    position: relative;
+    z-index: 999;
+}
+.hero__wave{
+    position: absolute;
+    bottom: -2%;
+
+}
+.hero p{
+    text-align: justify;
+    line-height: 1.5;
+}
+
+/* fitur keungulan */
+#fitur{
+    padding: 50px 0;
+
+}
+.fiturku{
+    padding: 20px;
+}
+.fiturku img{
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+}
+
+.fiturku h4{
+    padding: 5px;
+    margin-top: 25px;
+}
+.fiturku p{
+    text-align: justify;
 }
